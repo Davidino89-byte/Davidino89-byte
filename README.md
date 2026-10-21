@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-scuro.svg">
+  <img alt="Davide Costa, viticoltura di precisione" src="banner-chiaro.svg">
+</picture>
+
 # Ciao, sono Davide
 
 Studio Scienze e Tecnologie Agrarie (LM-69) all'Università di Padova, dopo la triennale in Viticoltura ed Enologia a San Michele all'Adige. Vengo dal vigneto, non dall'informatica: il codice che trovi qui nasce da problemi che ho incontrato in campo.
@@ -7,7 +12,7 @@ Mi interessa la viticoltura di precisione fatta con poco: sensori da pochi euro 
 ## Progetti
 
 **[VigneInsight](https://github.com/Davidino89-byte/vigneinsight)**
-Una stazione agrometeorologica con un ESP32 e un sistema di supporto alle decisioni per il vigneto. Misura il microclima tra i filari, calcola gradi-giorno, rischio di peronospora e oidio e copertura dei trattamenti, e mette tutto accanto alle previsioni, all'NDVI di Sentinel-2 e al bollettino fitosanitario regionale. Il nodo costa circa 50 €, la pipeline è in Python senza librerie esterne. Lo sto costruendo in pubblico.
+Una stazione agrometeorologica con un ESP32 e un sistema di supporto alle decisioni per il vigneto. Misura il microclima tra i filari, calcola gradi-giorno, rischio di peronospora e oidio e copertura dei trattamenti, e mette tutto accanto alle previsioni, all'NDVI di Sentinel-2 e al bollettino fitosanitario regionale. Il nodo costa circa 50 €, la pipeline è in Python senza librerie esterne. Lo sto costruendo in pubblico. La [demo online](https://davidino89-byte.github.io/vigneinsight/) gira su una stagione di dati di esempio.
 
 **[App per i rilievi in vigneto](https://github.com/Davidino89-byte/app-rilievi-vigneto)**
 Una web app da installare sul telefono per i rilievi di campo (mal dell'esca, germogli, grappoli, scottature), con la posizione GPS di ogni punto. Funziona senza rete e sincronizza su Google Sheets. L'ho scritta in cinque giorni durante il tirocinio.
