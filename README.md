@@ -11,11 +11,20 @@ Mi interessa la viticoltura di precisione fatta con poco: sensori da pochi euro 
 
 ## Progetti
 
-**[VigneInsight](https://github.com/Davidino89-byte/vigneinsight)**
-Una stazione agrometeorologica con un ESP32 e un sistema di supporto alle decisioni per il vigneto. Misura il microclima tra i filari, calcola gradi-giorno, rischio di peronospora e oidio e copertura dei trattamenti, e mette tutto accanto alle previsioni, all'NDVI di Sentinel-2 e al bollettino fitosanitario regionale. Il nodo costa circa 50 €, la pipeline è in Python senza librerie esterne. Lo sto costruendo in pubblico. La [demo online](https://davidino89-byte.github.io/vigneinsight/) gira su una stagione di dati di esempio.
-
-**[App per i rilievi in vigneto](https://github.com/Davidino89-byte/app-rilievi-vigneto)**
-Una web app da installare sul telefono per i rilievi di campo (mal dell'esca, germogli, grappoli, scottature), con la posizione GPS di ogni punto. Funziona senza rete e sincronizza su Google Sheets. L'ho scritta in cinque giorni durante il tirocinio.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Davidino89-byte/vigneinsight"><img src="img/vigneinsight.png" alt="VigneInsight"></a>
+<p><b><a href="https://github.com/Davidino89-byte/vigneinsight">VigneInsight</a></b> · <a href="https://davidino89-byte.github.io/vigneinsight/">demo online</a></p>
+<p>Una stazione agrometeorologica con un ESP32 e un sistema di supporto alle decisioni per il vigneto. Misura il microclima tra i filari, calcola gradi-giorno, rischio di peronospora e oidio e copertura dei trattamenti, e mette tutto accanto alle previsioni, all'NDVI di Sentinel-2 e al bollettino fitosanitario regionale. Il nodo costa circa 50 €, la pipeline è in Python senza librerie esterne. Lo sto costruendo in pubblico; la demo gira su una stagione di dati di esempio.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Davidino89-byte/app-rilievi-vigneto"><img src="img/app-rilievi-vigneto.png" alt="App per i rilievi in vigneto"></a>
+<p><b><a href="https://github.com/Davidino89-byte/app-rilievi-vigneto">App per i rilievi in vigneto</a></b></p>
+<p>Una web app da installare sul telefono per i rilievi di campo (mal dell'esca, germogli, grappoli, scottature), con la posizione GPS di ogni punto. Funziona senza rete e sincronizza su Google Sheets. L'ho scritta in cinque giorni durante il tirocinio.</p>
+</td>
+</tr>
+</table>
 
 ## Il mio second brain
 
